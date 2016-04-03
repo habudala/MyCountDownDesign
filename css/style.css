@@ -2,13 +2,15 @@ body {margin:0px;
 	  padding:0px;
 	  }
 h1 {text-align:center;
-	   font-size:40px;}
+	   font-size:40px;
+		font-weight:bold;}
+
 #year,#month,#date {font-size: 25px;
 					background-color:#d1e0e0;
 					color:#3d5c5c;}
 
 #btn1,#btn2{ padding:3px;
-			 width:49%;
+			 width:47%;
 			border: 3px solid black;
 			border-radius:3px;
 			text-align:center;
@@ -22,12 +24,14 @@ h1 {text-align:center;
 .num {text-align:center;
 	line-height:150px;
 	font-family: 'Orbitron', sans-serif;
-	font-size:3vw;
+	font-size:3.3vw;
 	border:5px solid black;
-	height:150px;}
+	height:150px;
+	font-weight:bold;}
 
 .desc {text-align:center;
 	font-size:1.6vw;
+	font-weight:bold;
 	border:5px solid black;
 	border-bottom:none;}
 
