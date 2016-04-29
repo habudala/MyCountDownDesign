@@ -5,9 +5,13 @@ h1 {text-align:center;
 	   font-size:40px;
 		font-weight:bold;}
 
+h2 {font-size: 1.7vw;
+	 text-align:center;}
+
 #year,#month,#date {font-size: 25px;
 					background-color:#d1e0e0;
-					color:#3d5c5c;}
+					color:#3d5c5c;
+					width:100%;}
 
 #btn1,#btn2{ padding:3px;
 			 width:47%;
@@ -19,9 +23,9 @@ h1 {text-align:center;
 			color:#f2f2f2;
 			box-shadow: 6px 6px 6px #cccccc;}
 
-/*font-family: 'Orbitron', sans-serif;
-*/
+
 .num {text-align:center;
+	  padding:0px;
 	line-height:150px;
 	font-family: 'Orbitron', sans-serif;
 	font-size:3.3vw;
@@ -30,10 +34,62 @@ h1 {text-align:center;
 	font-weight:bold;}
 
 .desc {text-align:center;
-	font-size:1.6vw;
-	font-weight:bold;
+	 padding:0px;
+	line-height: auto;
 	border:5px solid black;
 	border-bottom:none;}
 
 .cont2 { padding-top:20px; }
 .cont4 {padding-top:30px;}
+
+
+@media only screen and (max-width:768px) {
+
+	h2 {font-size:2.2vw;}
+
+	#buttons {margin:auto;
+			 text-align:center;}
+
+
+	.num {text-align:center;
+	line-height:100px;
+	font-family: 'Orbitron', sans-serif;
+	font-size:3.3vw;
+	border:5px solid black;
+	height:100px;
+	font-weight:bold;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
